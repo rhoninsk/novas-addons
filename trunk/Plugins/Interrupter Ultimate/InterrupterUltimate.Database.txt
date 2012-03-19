@@ -1,0 +1,143 @@
+// 
+// Interrupter Ultimate - Spells and Tag Groups - Database file
+// How to read:
+// "fields" are separated by Tab Stop character (the one appearing after pressing Tab key on left edge of the keyboard), 
+// all other characters (except commas for TagIDs and Aliases) including whitespace are parts of those fields.
+// 
+// Tag group:<tab>tagGroupID<tab>Interrupt<tab>RemoveFromInterrupts<tab>Aliases separated by "," (comma)
+// Spell:<tab>spellName<tab>tspellID<tab>Interrupt<tab>TagIDs separated by commas
+// Unit:<tab>unitID<tab>included
+// Lines starting with "//" are ignored.
+// 
+// Do not manually edit unless you are 100% sure of what you are doing, this file is NOT verified when loading
+// 
+// 
+Tag group:	cc	True	False	cc,control
+Tag group:	defensive	True	False	defensive,def,defense
+Tag group:	druid	True	False	druid,druid balance,druid restoration,moonkin,boomkin,owl,resto druid,tree
+Tag group:	druid balance	True	False	druid balance,moonkin,boomkin,owl
+Tag group:	druid restoration	True	False	druid restoration,resto druid,tree
+Tag group:	healing	True	False	healing,heal
+Tag group:	mage	True	False	mage,mage arcane,mage fire,mage frost,arcane,firemage,fire,frost,ice mage,ice
+Tag group:	mage arcane	True	False	mage arcane,arcane
+Tag group:	mage fire	True	False	mage fire,firemage,fire
+Tag group:	mage frost	True	False	mage frost,frost,ice mage,ice
+Tag group:	mana restoration	True	False	mana restoration,mana,mana resto
+Tag group:	offensive	True	False	offensive,dmg,damage,off
+Tag group:	paladin	True	False	paladin,loladin,pala,paladin holy,holy pala,holy pally
+Tag group:	paladin holy	True	False	paladin holy,holy pala,holy pally
+Tag group:	priest	True	False	priest,priest discipline,priest holy,priest shadow,disc,discipline,holy priest,shadowpriest,shadow
+Tag group:	priest discipline	True	False	priest discipline,disc,discipline
+Tag group:	priest holy	True	False	priest holy,holy priest
+Tag group:	priest shadow	True	False	priest shadow,shadowpriest,shadow
+Tag group:	shaman	True	False	shaman,shammie,shammy,shaman elemental combat,shaman enhancement,shaman restoration,ele,elemental,elemental shaman,enh,enhancement,resto shaman,resto shammy
+Tag group:	shaman elemental combat	True	False	shaman elemental combat,ele,elemental,elemental shaman
+Tag group:	shaman enhancement	True	False	shaman enhancement,enh,enhancement
+Tag group:	shaman restoration	True	False	shaman restoration,resto shaman,resto shammy
+Tag group:	summoning	True	False	summoning,summon,pet
+Tag group:	warlock	True	False	warlock,lock,warlock affliction,warlock demonology,warlock destruction,affli,affliction,demonology,demo,destro
+Tag group:	warlock affliction	True	False	warlock affliction,affli,affliction
+Tag group:	warlock demonology	True	False	warlock demonology,demonology,demo
+Tag group:	warlock destruction	True	False	warlock destruction,destro
+Spell:	Arcane Blast	30451	True	mage,mage arcane,offensive
+Spell:	Arcane Missiles	5143	True	mage,mage arcane,offensive
+Spell:	Banish	710	False	warlock,warlock demonology,cc
+Spell:	Bind Elemental	76780	False	shaman,shaman elemental combat,cc
+Spell:	Binding Heal	32546	True	priest,priest holy,healing
+Spell:	Blizzard	10	True	mage,mage frost,offensive
+Spell:	Chain Heal	1064	True	shaman,shaman restoration,healing
+Spell:	Chain Lightning	421	True	shaman,shaman elemental combat,offensive
+Spell:	Chaos Bolt	50796	True	offensive
+Spell:	Conjure Mana Gem	759	False	mage,mage arcane,mana restoration
+Spell:	Create Healthstone	6201	True	warlock,warlock demonology
+Spell:	Create Soulstone	693	True	warlock,warlock demonology,defensive
+Spell:	Cyclone	33786	True	druid,druid balance,cc
+Spell:	Divine Hymn	64843	True	priest,priest holy,healing
+Spell:	Divine Light	82326	True	paladin,paladin holy,healing
+Spell:	Drain Life	689	True	warlock,warlock affliction,offensive,healing
+Spell:	Drain Life	89420	True	warlock,warlock affliction,offensive,healing
+Spell:	Drain Soul	1120	True	warlock,warlock affliction,offensive
+Spell:	Earthquake	61882	True	shaman,shaman elemental combat,offensive
+Spell:	Enslave Demon	1098	False	warlock,warlock demonology,cc
+Spell:	Entangling Roots	339	True	druid,druid balance,cc
+Spell:	Evocation	12051	True	mage,mage arcane,mana restoration
+Spell:	Exorcism	879	True	paladin,paladin holy,offensive
+Spell:	Eye of Kilrogg	126	False	warlock,warlock demonology
+Spell:	Far Sight	6196	False	shaman,shaman enhancement
+Spell:	Fear	5782	True	warlock,warlock affliction,cc
+Spell:	Fireball	133	True	mage,mage fire,offensive
+Spell:	Flamestrike	2120	True	mage,mage fire,offensive
+Spell:	Flash Heal	2061	True	priest,priest holy,healing
+Spell:	Flash of Light	19750	True	paladin,paladin holy,healing
+Spell:	Frostbolt	116	True	mage,mage frost,offensive
+Spell:	Frostfire Bolt	44614	True	mage,mage fire,mage frost,offensive
+Spell:	Ghost Wolf	2645	False	shaman,shaman enhancement
+Spell:	Greater Heal	2060	True	priest,priest holy,healing
+Spell:	Greater Healing Wave	77472	True	shaman,shaman restoration,healing
+Spell:	Hand of Gul'dan	71521	True	warlock,warlock demonology,offensive
+Spell:	Haunt	48181	True	warlock,warlock affliction,offensive,healing
+Spell:	Heal	2050	True	priest,priest holy,healing
+Spell:	Healing Rain	73920	True	shaman,shaman restoration,healing
+Spell:	Healing Surge	8004	True	shaman,shaman restoration,healing
+Spell:	Healing Touch	5185	True	druid,druid restoration,healing
+Spell:	Healing Wave	331	True	shaman,shaman restoration,healing
+Spell:	Health Funnel	755	True	warlock,warlock demonology,summoning,healing
+Spell:	Hellfire	85403	True	warlock,warlock demonology,offensive
+Spell:	Hellfire	1949	True	offensive
+Spell:	Hex	51514	True	shaman,shaman elemental combat,cc
+Spell:	Holy Fire	14914	True	priest,priest holy,offensive
+Spell:	Holy Light	635	True	paladin,paladin holy,healing
+Spell:	Howl of Terror	5484	True	warlock,warlock affliction,cc
+Spell:	Hurricane	16914	True	druid,druid balance,offensive
+Spell:	Hymn of Hope	64901	True	priest,priest holy,mana restoration
+Spell:	Immolate	348	True	offensive
+Spell:	Immolation Aura	50589	True	warlock,warlock demonology,offensive
+Spell:	Incinerate	29722	True	offensive
+Spell:	Lava Burst	51505	True	shaman,shaman elemental combat,offensive
+Spell:	Lightning Bolt	403	True	shaman,shaman elemental combat,offensive
+Spell:	Mana Burn	8129	True	priest,priest discipline,offensive,cc
+Spell:	Mass Dispel	32375	True	priest,priest discipline,defensive
+Spell:	Mind Blast	8092	True	priest,priest shadow,offensive
+Spell:	Mind Control	605	True	priest,priest shadow,cc
+Spell:	Mind Flay	15407	True	priest,priest shadow,offensive
+Spell:	Mind Spike	73510	True	priest,priest shadow,offensive
+Spell:	Mind Vision	2096	False	priest,priest shadow
+Spell:	Nourish	50464	True	druid,druid restoration,healing
+Spell:	Penance	47540	True	priest,priest discipline,offensive,healing
+Spell:	Polymorph	118	True	mage,cc
+Spell:	Polymorph	28272	True	mage,cc
+Spell:	Polymorph	61721	True	mage,cc
+Spell:	Polymorph	61305	True	mage,cc
+Spell:	Polymorph	61780	True	mage,cc
+Spell:	Polymorph	28271	True	mage,cc
+Spell:	Prayer of Healing	596	True	priest,priest holy,healing
+Spell:	Pyroblast	11366	True	mage,mage fire,offensive
+Spell:	Rain of Fire	5740	True	offensive
+Spell:	Rebirth	20484	True	druid,druid restoration,healing
+Spell:	Regrowth	8936	True	druid,druid restoration,healing
+Spell:	Ring of Frost	82676	True	mage,mage frost,offensive
+Spell:	Scorch	2948	True	mage,mage fire,offensive
+Spell:	Searing Pain	5676	True	offensive
+Spell:	Seed of Corruption	27243	True	warlock,warlock affliction,offensive
+Spell:	Shackle Undead	9484	True	priest,priest discipline,cc
+Spell:	Shadow Bolt	686	True	offensive
+Spell:	Smite	585	True	priest,priest holy,offensive
+Spell:	Soul Fire	6353	True	offensive
+Spell:	Starfire	2912	True	druid,druid balance,offensive
+Spell:	Starsurge	78674	True	druid,druid balance,offensive
+Spell:	Summon Felguard	30146	True	warlock,warlock demonology,summoning
+Spell:	Summon Felhunter	691	True	warlock,warlock demonology,summoning
+Spell:	Summon Imp	688	True	warlock,warlock demonology,summoning
+Spell:	Summon Infernal	1122	True	warlock,warlock demonology,summoning
+Spell:	Summon Succubus	712	True	warlock,warlock demonology,summoning
+Spell:	Summon Voidwalker	697	True	warlock,warlock demonology,summoning
+Spell:	Tranquility	740	True	druid,druid restoration,healing
+Spell:	Unstable Affliction	30108	True	warlock,warlock affliction,offensive
+Spell:	Wrath	5176	True	druid,druid balance,offensive
+Unit:	arena1	True
+Unit:	arena2	True
+Unit:	arena3	True
+Unit:	arena4	True
+Unit:	arena5	True
+Unit:	focus	True
+Unit:	target	True
