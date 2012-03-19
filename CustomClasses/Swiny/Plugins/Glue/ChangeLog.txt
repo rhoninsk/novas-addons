@@ -1,0 +1,3 @@
+1.0.0.5 - Fixed offsets for patch
+
+Before that was working on it!

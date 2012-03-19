@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Priest>
+  <!--Multiple Environment options are: never and always-->
+  <MultipleEnvironment>... never</MultipleEnvironment>
+  <Version>0.0.0</Version>
+  <!--Common class settings template-->
+  <ShowUI>... always</ShowUI>
+  <SmartEatDrink>... always</SmartEatDrink>
+  <RAFTarget>... always</RAFTarget>
+  <Debug>... do not show debug</Debug>
+  <LowLevelCheck>... always</LowLevelCheck>
+  <RestHealth>55</RestHealth>
+  <RestMana>55</RestMana>
+  <CombatTimeout>30</CombatTimeout>
+  <HealthPotion>52</HealthPotion>
+  <LifebloodHealth>40</LifebloodHealth>
+  <ManaPotion>10</ManaPotion>
+  <RacialSpell>... never</RacialSpell>
+  <RacialUseWhen>... never</RacialUseWhen>
+  <Cleanse>... only out of combat</Cleanse>
+  <MaximumPullDistance>39</MaximumPullDistance>
+  <MinimumPullDistance>25</MinimumPullDistance>
+  <LazyRaider>... never</LazyRaider>
+  <IgnoreRunners>... always</IgnoreRunners>
+  <!--Class specific settings everything below here-->
+  <RestHealPercent>75</RestHealPercent>
+  <!--Healing-->
+  <FlashHealHealth>52</FlashHealHealth>
+  <PowerWordShieldHealth>79</PowerWordShieldHealth>
+  <RenewHealth>65</RenewHealth>
+  <PainSuppressionHealth>40</PainSuppressionHealth>
+  <!--Party Healing-->
+  <PartyHealerOOM>25</PartyHealerOOM>
+  <PartyCleanse>... immediately</PartyCleanse>
+  <PartyHealWhen>... I'm dedicated healer</PartyHealWhen>
+  <PartyHealWhenSpec>... Discipline spec only</PartyHealWhenSpec>
+  <PartyGuardianSpirit>25</PartyGuardianSpirit>
+  <PartyPrayerOfMending>80</PartyPrayerOfMending>
+  <PartyPenance>75</PartyPenance>
+  <PartyPainSuppression>60</PartyPainSuppression>
+  <PartyRenew>96</PartyRenew>
+  <PartyPWS>95</PartyPWS>
+  <PartyFlashHeal>70</PartyFlashHeal>
+  <PartyGreaterHeal>55</PartyGreaterHeal>
+  <PrayerOfHealingCount>3</PrayerOfHealingCount>
+  <PrayerOfHealingHealth>85</PrayerOfHealingHealth>
+  <CircleOfHealingCount>2</CircleOfHealingCount>
+  <CircleOfHealingHealth>85</CircleOfHealingHealth>
+  <VerboseHealing>... never</VerboseHealing>
+  <SmiteEvangelism>... only if mana &gt; 55%</SmiteEvangelism>
+  <SmiteEvangelismHealth>85</SmiteEvangelismHealth>
+  <Archangel>... 5+ stacks</Archangel>
+  <ArchangelParty>... 5+ stacks</ArchangelParty>
+  <BouncePoM>... always</BouncePoM>
+  <WandParty>... always</WandParty>
+  <HealPets>... always</HealPets>
+  <ResurrectPlayers>... always</ResurrectPlayers>
+  <PowerWordBarrier>... never</PowerWordBarrier>
+  <!--Combat-->
+  <WandMana>0</WandMana>
+  <PullSpell>Mind Blast</PullSpell>
+  <InnerFireWill>Inner Fire</InnerFireWill>
+  <PowerWordFortitude>... always</PowerWordFortitude>
+  <ShadowProtection>... never</ShadowProtection>
+  <Smite>... never</Smite>
+  <ShadowWordPain>... never</ShadowWordPain>
+  <MindBlast>... 3+ Mind Spike</MindBlast>
+  <MindFlay>... never</MindFlay>
+  <HolyFire>... never</HolyFire>
+  <DevouringPlague>... never</DevouringPlague>
+  <ShadowWordDeath>... always</ShadowWordDeath>
+  <ShadowfiendMana>46</ShadowfiendMana>
+  <ReserveMana>1</ReserveMana>
+  <DispersionMana>4</DispersionMana>
+  <HymnOfHopeMana>15</HymnOfHopeMana>
+  <Silence>... always</Silence>
+  <VampiricTouch>... never</VampiricTouch>
+  <Shadowform>... always</Shadowform>
+  <FearWard>... never</FearWard>
+  <MindSpike>... always</MindSpike>
+  <Chastise>... never</Chastise>
+  <Penance>... never</Penance>
+  <InnerFocusMana>50</InnerFocusMana>
+  <PowerInfusion>... never</PowerInfusion>
+  <ShackleUndead>... never</ShackleUndead>
+  <PWSBeforePull>... never</PWSBeforePull>
+  <PsychicScream>... never</PsychicScream>
+  <MindSear>... only on 3+ adds</MindSear>
+  <HolyNova>... never</HolyNova>
+  <!--Hidden settings. Not visible in the UI-->
+  <HealingSpellTimer>1100</HealingSpellTimer>
+  <HealingModifierSolo>80</HealingModifierSolo>
+  <HealingAbsoluteMinimum>25</HealingAbsoluteMinimum>
+  <PriorityTargeting>... never</PriorityTargeting>
+  <DoubleHeal>... always</DoubleHeal>
+  <MinTankHealth>65</MinTankHealth>
+  <MinTankHealthOverride>65</MinTankHealthOverride>
+  <PetHealth>80</PetHealth>
+</Priest>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSpecialTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpecialTarget>
+    <TargetId>52447</TargetId>
+    <TargetName>Cinderweb Spiderling</TargetName>
+    <Focus>false</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>true</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>54144</TargetId>
+    <TargetName>Magmakin</TargetName>
+    <Focus>false</Focus>
+    <Ignore>true</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56854</TargetId>
+    <TargetName>Twilight Elite Dreadblade</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56587</TargetId>
+    <TargetName>Twilight Assault Drake</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56855</TargetId>
+    <TargetName>Twilight Assault Drake</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56781</TargetId>
+    <TargetName>Goriona</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56341</TargetId>
+    <TargetName>Burning Tendons</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56167</TargetId>
+    <TargetName>Arm Tentacle</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56846</TargetId>
+    <TargetName>Arm Tentacle</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56168</TargetId>
+    <TargetName>Wing Tentacle</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56231</TargetId>
+    <TargetName>Mana Void</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56923</TargetId>
+    <TargetName>Twilight Sapper</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>true</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>56262</TargetId>
+    <TargetName>Elementium Bolt</TargetName>
+    <Focus>true</Focus>
+    <Ignore>false</Ignore>
+    <MindSpike>true</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+  <SpecialTarget>
+    <TargetId>55334</TargetId>
+    <TargetName>Void of the Unmaking</TargetName>
+    <Focus>false</Focus>
+    <Ignore>true</Ignore>
+    <MindSpike>false</MindSpike>
+    <MindSear>false</MindSear>
+    <UnsafeSWD>false</UnsafeSWD>
+    <Shackle>false</Shackle>
+  </SpecialTarget>
+</ArrayOfSpecialTarget>
