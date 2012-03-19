@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC4244E8-D2C5-4328-B5FD-82AB951AA2FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PvPRogue</RootNamespace>
+    <AssemblyName>PvPRogue</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStats.Designer.cs">
+      <DependentUpon>FormStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managers\BGHealers.cs" />
+    <Compile Include="Managers\Poisons.cs" />
+    <Compile Include="Managers\Trinket.cs" />
+    <Compile Include="PvPRogue.cs" />
+    <Compile Include="ClassSettings.cs" />
+    <Compile Include="Spec\AutoAttack.cs" />
+    <Compile Include="Spec\General\FanofKnives.cs" />
+    <Compile Include="Spec\Subtlety\Combat.cs" />
+    <Compile Include="Spec\Subtlety\Pull.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Defensives\CombatReadiness.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Defensives\CloakOfShadows.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Defensives\Dismantle.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Defensives\Evasion.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Defensives\Kick.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Defensives\SmokeBombDefensive.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Finishers\Eviscerate.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Finishers\EviscerateLow.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Finishers\KidneyShot.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\Blind.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\DeadlyThrow.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\Preparation.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\Redirect.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\Throw.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\Vanish.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Offensives\MainMove.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Finishers\Recuperate.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Finishers\SliceandDice.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Offensives\Ambush.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\ShadowDance.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\Shadowstep.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Offensives\Shiv.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Globals\Sprint.cs" />
+    <Compile Include="Managers\Energy.cs" />
+    <Compile Include="Spec\Subtlety\Spells\Offensives\SmokeBombOffensive.cs" />
+    <Compile Include="Utils\Logging.cs" />
+    <Compile Include="Managers\NavMan.cs" />
+    <Compile Include="Managers\PlayerObjects.cs" />
+    <Compile Include="Utils\Misc.cs" />
+    <Compile Include="Utils\PlayerFlee.cs" />
+    <Compile Include="Utils\SafeChecks.cs" />
+    <Compile Include="Managers\Spec.cs" />
+    <Compile Include="Managers\Spell.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Honorbuddy, Version=2.0.0.5800, Culture=neutral, PublicKeyToken=50a565ab5c01ae50, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <ExecutableExtension>.exe</ExecutableExtension>
+      <HintPath>..\..\..\..\Honorbuddy\Honorbuddy.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tripper.Tools">
+      <HintPath>..\..\..\..\Honorbuddy_2.0.0.5588\Tripper.Tools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Spec\Assasination\" />
+    <Folder Include="Spec\Combat\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStats.resx">
+      <DependentUpon>FormStats.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

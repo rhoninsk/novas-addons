@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ZerfallSettings>
+  <IsConfigured>True</IsConfigured>
+  <RestHealthPercentage>60</RestHealthPercentage>
+  <RestManaPercentage>60</RestManaPercentage>
+  <LifeTap_MP_Start>45</LifeTap_MP_Start>
+  <LifeTap_HP_Limit>45</LifeTap_HP_Limit>
+  <PetSpell>Imp</PetSpell>
+  <PullSpellSelect>Shadow Bolt</PullSpellSelect>
+  <RestStone>False</RestStone>
+  <Adds>5</Adds>
+  <HealthStoneCombat>45</HealthStoneCombat>
+  <HealthPotPercent>45</HealthPotPercent>
+  <ManaPotPercent>45</ManaPotPercent>
+  <Use_Immolate>True</Use_Immolate>
+  <Use_Corruption>True</Use_Corruption>
+  <Use_LifeTap>True</Use_LifeTap>
+  <CurseSelect>Automatic</CurseSelect>
+  <BaneSelect>Automatic</BaneSelect>
+  <ArmorSelect>Fel Armor</ArmorSelect>
+  <Use_Shadowflame>True</Use_Shadowflame>
+  <Use_DemonSoul>True</Use_DemonSoul>
+  <Use_Soulburn>True</Use_Soulburn>
+  <Got_ISF>True</Got_ISF>
+  <Use_DrainSoul>True</Use_DrainSoul>
+  <PS_Sacrifice>True</PS_Sacrifice>
+  <Use_DrainLife>False</Use_DrainLife>
+  <PS_BloodPact>True</PS_BloodPact>
+  <SoulHarvestRest>True</SoulHarvestRest>
+  <RainOfFire>True</RainOfFire>
+  <MoveDisable>False</MoveDisable>
+</ZerfallSettings>

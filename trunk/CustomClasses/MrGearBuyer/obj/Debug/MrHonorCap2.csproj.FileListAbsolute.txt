@@ -1,0 +1,28 @@
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\obj\Debug\ResolveAssemblyReference.cache
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\MrHonorCap2.dll
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\MrHonorCap2.pdb
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\HDCP.exe
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\Tripper.Tools.dll
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\fasmdll_managed.dll
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\RemoteASMNative.dll
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\System.Data.SQLite.dll
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\Tripper.RecastManaged.dll
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\bin\Debug\System.Data.SQLite.xml
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\obj\Debug\MrHonorCap2.dll
+c:\users\backlap\documents\visual studio 2010\Projects\MrHonorCap2\MrHonorCap2\obj\Debug\MrHonorCap2.pdb
+C:\Users\BackLap\Documents\Visual Studio 2010\Projects\MrHonorCap2\MrHonorCap2\obj\Debug\ResGen.read.1.tlog
+C:\Users\BackLap\Documents\Visual Studio 2010\Projects\MrHonorCap2\MrHonorCap2\obj\Debug\ResGen.write.1.tlog
+C:\Users\BackLap\Documents\Visual Studio 2010\Projects\MrHonorCap2\MrHonorCap2\obj\Debug\MrHonorCap2.GUI.Hc2Config.resources
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\bin\Debug\MrHonorCap2.dll
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\bin\Debug\MrHonorCap2.pdb
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\bin\Debug\fasmdll_managed.dll
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\bin\Debug\RemoteASMNative.dll
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\bin\Debug\System.Data.SQLite.dll
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\bin\Debug\Tripper.RecastManaged.dll
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\bin\Debug\System.Data.SQLite.xml
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\obj\Debug\ResolveAssemblyReference.cache
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\obj\Debug\MrHonorCap2.GUI.HC2Config.resources
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\obj\Debug\ResGen.read.1.tlog
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\obj\Debug\ResGen.write.1.tlog
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\obj\Debug\MrHonorCap2.dll
+E:\Programming\Projects\Honorbuddy\MrHonorCap2\MrHonorCap2\obj\Debug\MrHonorCap2.pdb

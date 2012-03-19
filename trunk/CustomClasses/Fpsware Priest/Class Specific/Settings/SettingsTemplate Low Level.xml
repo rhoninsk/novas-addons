@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Priest>
+  <!--Multiple Environment options are: never and always-->
+  <MultipleEnvironment>... never</MultipleEnvironment>
+  <Version>0.0.0</Version>
+  <!--Common class settings template-->
+  <ShowUI>... always</ShowUI>
+  <SmartEatDrink>... always</SmartEatDrink>
+  <RAFTarget>... always</RAFTarget>
+  <Debug>... do not show debug</Debug>
+  <LowLevelCheck>... always</LowLevelCheck>
+  <RestHealth>55</RestHealth>
+  <RestMana>55</RestMana>
+  <CombatTimeout>30</CombatTimeout>
+  <HealthPotion>52</HealthPotion>
+  <LifebloodHealth>40</LifebloodHealth>
+  <ManaPotion>10</ManaPotion>
+  <RacialSpell>... never</RacialSpell>
+  <RacialUseWhen>... never</RacialUseWhen>
+  <Cleanse>... immediately</Cleanse>
+  <MaximumPullDistance>39</MaximumPullDistance>
+  <MinimumPullDistance>25</MinimumPullDistance>
+  <LazyRaider>... never</LazyRaider>
+  <IgnoreRunners>... always</IgnoreRunners>
+  <!--Class specific settings everything below here-->
+  <RestHealPercent>75</RestHealPercent>
+  <!--Healing-->
+  <FlashHealHealth>60</FlashHealHealth>
+  <PowerWordShieldHealth>86</PowerWordShieldHealth>
+  <RenewHealth>72</RenewHealth>
+  <PainSuppressionHealth>40</PainSuppressionHealth>
+  <!--Party Healing-->
+  <PartyHealerOOM>25</PartyHealerOOM>
+  <PartyCleanse>... immediately</PartyCleanse>
+  <PartyHealWhen>... never</PartyHealWhen>
+  <PartyHealWhenSpec>... Discipline spec only</PartyHealWhenSpec>
+  <PartyGuardianSpirit>25</PartyGuardianSpirit>
+  <PartyPrayerOfMending>80</PartyPrayerOfMending>
+  <PartyPenance>75</PartyPenance>
+  <PartyPainSuppression>60</PartyPainSuppression>
+  <PartyRenew>96</PartyRenew>
+  <PartyPWS>95</PartyPWS>
+  <PartyFlashHeal>70</PartyFlashHeal>
+  <PartyGreaterHeal>55</PartyGreaterHeal>
+  <PrayerOfHealingCount>3</PrayerOfHealingCount>
+  <PrayerOfHealingHealth>85</PrayerOfHealingHealth>
+  <CircleOfHealingCount>2</CircleOfHealingCount>
+  <CircleOfHealingHealth>85</CircleOfHealingHealth>
+  <VerboseHealing>... never</VerboseHealing>
+  <SmiteEvangelism>... only if mana &gt; 55%</SmiteEvangelism>
+  <SmiteEvangelismHealth>85</SmiteEvangelismHealth>
+  <Archangel>... 5+ stacks</Archangel>
+  <ArchangelParty>... 5+ stacks</ArchangelParty>
+  <BouncePoM>... always</BouncePoM>
+  <WandParty>... never</WandParty>
+  <HealPets>... always</HealPets>
+  <ResurrectPlayers>... always</ResurrectPlayers>
+  <PowerWordBarrier>... only on 3+ adds</PowerWordBarrier>
+  <!--Combat-->
+  <WandMana>6</WandMana>
+  <PullSpell>Mind Blast</PullSpell>
+  <InnerFireWill>Inner Fire</InnerFireWill>
+  <PowerWordFortitude>... always</PowerWordFortitude>
+  <ShadowProtection>... only when in battlegrounds</ShadowProtection>
+  <Smite>... always</Smite>
+  <ShadowWordPain>... always</ShadowWordPain>
+  <MindBlast>... always</MindBlast>
+  <MindFlay>... never</MindFlay>
+  <HolyFire>... always</HolyFire>
+  <DevouringPlague>... always</DevouringPlague>
+  <ShadowWordDeath>... target &lt; 25% health</ShadowWordDeath>
+  <ShadowfiendMana>35</ShadowfiendMana>
+  <ReserveMana>1</ReserveMana>
+  <DispersionMana>25</DispersionMana>
+  <HymnOfHopeMana>15</HymnOfHopeMana>
+  <Silence>... always</Silence>
+  <VampiricTouch>... never</VampiricTouch>
+  <Shadowform>... never</Shadowform>
+  <FearWard>... only when in instance</FearWard>
+  <MindSpike>... never</MindSpike>
+  <Chastise>... only on adds</Chastise>
+  <Penance>... always</Penance>
+  <InnerFocusMana>50</InnerFocusMana>
+  <PowerInfusion>... only on 3+ adds</PowerInfusion>
+  <ShackleUndead>... only on adds</ShackleUndead>
+  <PWSBeforePull>... always</PWSBeforePull>
+  <PsychicScream>... only on 3+ adds</PsychicScream>
+  <MindSear>... only on adds</MindSear>
+  <HolyNova>... only on 3+ adds</HolyNova>
+  <!--Hidden settings. Not visible in the UI-->
+  <HealingSpellTimer>1100</HealingSpellTimer>
+  <HealingModifierSolo>80</HealingModifierSolo>
+  <HealingAbsoluteMinimum>25</HealingAbsoluteMinimum>
+  <PriorityTargeting>... never</PriorityTargeting>
+  <DoubleHeal>... always</DoubleHeal>
+  <MinTankHealth>65</MinTankHealth>
+  <MinTankHealthOverride>65</MinTankHealthOverride>
+  <PetHealth>80</PetHealth>
+</Priest>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MarksmanSettings>
+  <AimedROT>False</AimedROT>
+  <ArcaneROT>False</ArcaneROT>
+  <MixedROT>True</MixedROT>
+  <ExploROT>False</ExploROT>
+  <MMSPEC>True</MMSPEC>
+  <SSPEC>False</SSPEC>
+  <Party>True</Party>
+  <CP>True</CP>
+  <RP>True</RP>
+  <MP>True</MP>
+  <MS>True</MS>
+  <TL>True</TL>
+  <DSLFR>False</DSLFR>
+  <DSNOR>False</DSNOR>
+  <DSHC>False</DSHC>
+  <T1>True</T1>
+  <T2>True</T2>
+  <RF>True</RF>
+  <LB>True</LB>
+  <GE>True</GE>
+  <RS>True</RS>
+  <Mobs>4</Mobs>
+  <PET>2</PET>
+</MarksmanSettings>
